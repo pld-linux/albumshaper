@@ -20,7 +20,7 @@ cross-platform solution for maintaining your collection of digital
 images from various sources.
 
 %description -l pl
-AlbumShaper jest hierarchicznym programem klasy "przenies i upu¶æ"
+AlbumShaper jest hierarchicznym programem klasy "przenie¶ i upu¶æ"
 s³u¿±cym do tworzenia i modyfikacji albumów fotograficznych. Oparty o
 bibliotekê Qt AlbumShaper jest rozwi±zaniem wieloplatformowym s³u¿±cym
 do zarz±dzania zbiorami cyfrowych zdjêæ pochodz±cych z ró¿nych ¼róde³.
@@ -38,7 +38,7 @@ qmake
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_prefix}/{bin,share/albumshaper/images}
 
-install bin/images/*.png $RPM_BUILD_ROOT%{_datadir}/albumshaper/images/
+install bin/images/*.png $RPM_BUILD_ROOT%{_datadir}/albumshaper/images
 install bin/AlbumShaper.bin $RPM_BUILD_ROOT%{_bindir}/albumshaper
 
 %clean
