@@ -5,7 +5,7 @@ Version:	1.0a2
 Release:	0.1
 License:	GPL v2
 Group:		Applications/Graphics
-Source0:	http://dl.sourceforfe.net/%{name}/%{name}_%{version}_source.tar.bz2
+Source0:	http://dl.sourceforge.net/%{name}/%{name}_%{version}_source.tar.bz2
 # Source0-md5:	704199e8f3df8e3504a72574e6f0f11a
 Patch0:		%{name}-qmake.patch
 URL:		http://albumshaper.sourceforge.net/
