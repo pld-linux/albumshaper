@@ -1,0 +1,15 @@
+--- albumshaper/AlbumShaper.pro	Wed Jun 11 06:19:09 2003
++++ albumshaper/AlbumShaper.pro	Mon Aug 11 15:18:12 2003
+@@ -4,10 +4,10 @@
+ MOC_DIR = tmp
+ OBJECTS_DIR = tmp
+ 
+-unix:images.path = /usr/local/share/albumshaper/images
++unix:images.path = /usr/share/albumshaper/images
+ unix:images.files = bin/images/*
+ 
+-unix:target.path = /usr/local/bin
++unix:target.path = /usr/bin
+ unix:target.files = bin/AlbumShaper*
+ 
+ unix:INSTALLS += images
