@@ -30,9 +30,11 @@ do zarz±dzania zbiorami cyfrowych zdjêæ pochodz±cych z ró¿nych ¼róde³.
 %patch0 -p1
 
 %build
-export QTDIR=%{_prefix}/X11R6
+export QTDIR=%{_prefix}
 qmake
-%{__make}
+%{__make} \
+	CXX="%{__cxx}" \
+	CXXFLAGS="%{rpmcflags} -pipe -Wall -W -DQT_NO_DEBUG"
 
 %install
 rm -rf $RPM_BUILD_ROOT
