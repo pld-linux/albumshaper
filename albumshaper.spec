@@ -1,6 +1,6 @@
 %define		_alpha	a2
 Summary:	Photo album creation and modification application
-Summary(pl):	-
+Summary(pl):	Program do tworzenia i modyfikacji albumów fotograficznych
 Name:		albumshaper
 Version:	1.0
 Release:	0.%{_alpha}.1
@@ -18,6 +18,12 @@ AlbumShaper is a drag-n-drop hierarchal photo album creation and
 modification application. Based on the Qt libraries AlbumShaper is a
 cross-platform solution for maintaining your collection of digital
 images from various sources.
+
+%description -l pl
+AlbumShaper jest hierarchicznym programem klasy "przenies i upu¶æ"
+s³u¿±cym do tworzenia i modyfikacji albumów fotograficznych. Oparty o
+bibliotekê Qt AlbumShaper jest rozwi±zaniem wieloplatformowym s³u¿±cym
+do zarz±dzania zbiorami cyfrowych zdjêæ pochodz±cych z ró¿nych ¼róde³.
 
 %prep
 %setup -q -n %{name}_%{version}%{_alpha}_source
