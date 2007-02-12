@@ -1,6 +1,6 @@
 %define		_alpha	a2
 Summary:	Photo album creation and modification application
-Summary(pl.UTF-8):   Program do tworzenia i modyfikacji albumów fotograficznych
+Summary(pl.UTF-8):	Program do tworzenia i modyfikacji albumów fotograficznych
 Name:		albumshaper
 Version:	1.0
 Release:	0.%{_alpha}.1
