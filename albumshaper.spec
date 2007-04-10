@@ -10,7 +10,7 @@ Source0:	http://dl.sourceforge.net/albumshaper/%{name}_%{version}%{_alpha}_sourc
 # Source0-md5:	704199e8f3df8e3504a72574e6f0f11a
 Patch0:		%{name}-qmake.patch
 URL:		http://albumshaper.sourceforge.net/
-BuildRequires:	qt-devel >= 3.0
+BuildRequires:	qt-devel >= 1:3.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
