@@ -27,7 +27,7 @@ do zarządzania zbiorami cyfrowych zdjęć pochodzących z różnych źródeł.
 
 %prep
 %setup -q -n %{name}_%{version}%{_alpha}_source
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 export QTDIR=%{_prefix}
